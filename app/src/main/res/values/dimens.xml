@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_height">8dp</dimen>
+    <dimen name="font_size">9dp</dimen>
+    <dimen name="font_size_title">18dp</dimen>
+    <dimen name="pad_vertical_long">12dp</dimen>
+    <dimen name="pad_vertical_short">6dp</dimen>
+    <dimen name="col_1">175dp</dimen>
+    <dimen name="z_app_bar">4dp</dimen>
+    <dimen name="margin_vertical">4dp</dimen>
+    <dimen name="margin_left">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

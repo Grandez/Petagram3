@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+     <include layout="@layout/detail_action_bar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/euler2"
+        />
+    <TextView
+        android:id="@+id/lblAbout_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/pad_vertical_long"
+        android:text="@string/lbl_about_nombre"
+        android:textSize="@dimen/font_size_title"
+        android:textStyle="bold|italic"
+        tools:fontFamily="serif"
+        tools:paddingBottom="@dimen/pad_vertical_long"
+        />
+    <TextView
+        android:id="@+id/lblAbout_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblAbout_nombre"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/pad_vertical_long"
+        android:text="@string/lbl_about_mail"
+        android:textSize="@dimen/font_size_title"
+        android:textStyle="bold|italic"
+        tools:fontFamily="serif"
+        tools:paddingBottom="@dimen/pad_vertical_long"
+        />
+
+</LinearLayout>
